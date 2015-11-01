@@ -1,0 +1,85 @@
+body {
+	padding-top: 70px;        
+}
+
+.navbar-inverse {
+  background-color: #439bad;
+  border: none;
+}
+
+.navbar-header a.navbar-brand {
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h1 {
+	color: #439bad;
+	font-weight: 300;
+	
+}
+
+h1 span {
+	color: #b1d5dc;
+	font-weight: 500;
+}
+
+h1 span.right {
+  text-align: right;
+}
+
+.banner { 
+	margin-top: 5px;
+	height: auto;
+	color: #b1d5dc;
+
+}
+
+.banner .banner-inner { 
+	border-top: 7px solid #439bad;
+	border-bottom: 7px solid #439bad;
+	padding: 0;
+	font-size: 13px;
+	min-height: 164px;
+}
+
+.banner .banner-inner p { 
+  margin: 15px 0;
+  text-align: right;
+}
+
+.banner .banner-inner h1 { 
+  font-size: 60px;
+  line-height: .8;
+  float: left;
+  font-weight: 600;
+  margin: 0 8px 12px 0;
+  width: 88px;
+  padding: 2px 0;
+}
+
+.banner .banner-inner h1 span {
+  display: block;
+}
+
+.banner .banner-inner p {
+  margin-left: 180px;
+}
+
+
+@media (max-width: 767px) {
+  .banner {
+    min-height: 0;
+    margin-bottom: -7px;
+  }
+  .banner .banner-inner p {
+  	margin-left: 150px;
+  }
+}
+@media (max-width: 991px) {
+  .banner h1 {
+    font-size: 32px;
+  }
+}
+
